@@ -33,11 +33,11 @@ then you have to take the returned token and use it to call other API's like the
 DONOT FORGET TO USE THE SAME USERNAME AND PASSWORDS USED IN POSTMAN COLLECTIONS SINCE THEY ARE HARDCODED IN THE CODE ,SINCE NO DB USED
 ---------------------------------------------------------------------------------------------
 # Important Notes:
-this project conatins 
-the rest controllers for the api's
-service and Dto 
-configurations for Oauth
-Client that contains  # Feign Clients #  to call backend API's
-OAuth & spring security layer
-MOCKITO & JUINT for unit testing (unit testing provided for service layer only)
-general custome exception for handling exceptions in case the original api's in the background like : https://gorest.co.in/public/v2/comments  are not available
+-- this project conatins 
+- the rest controllers for the api's
+- Client package  that contains  **Feign Clients **  to call backend API's
+- OAuth & spring security layer
+- MOCKITO & JUINT for unit testing (unit testing provided for service layer only)
+- general custome exception for handling exceptions in case the original api's in the background like : https://gorest.co.in/public/v2/comments  are not available
+- service and Dto 
+- configurations for Oauth
